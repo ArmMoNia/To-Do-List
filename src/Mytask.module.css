@@ -1,0 +1,40 @@
+.allTask {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.task {
+  position: relative;
+  width: 25%;
+  height: 350px;
+  margin: 10px;
+  padding: 60px 40px 20px 40px;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.233);
+  transition: ease-in-out 0.5s;
+}
+.task:hover {
+  box-shadow: 10px 10px 3px rgb(0, 0, 0);
+}
+.deltask {
+  position: absolute;
+  border: none;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+
+.deltaskimg {
+  width: 27px;
+  height: 25px;
+  background-color: lightgoldenrodyellow;
+}
+
+.texttask {
+  font-size: 30px;
+  color: rgb(143, 143, 143);
+}

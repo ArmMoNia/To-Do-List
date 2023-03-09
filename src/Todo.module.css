@@ -1,0 +1,34 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+.todo-header {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.todo-plan input {
+  margin-right: 30px;
+  width: 500px;
+}
+.todo-plan input,
+.todo-plan button {
+  border: none;
+  padding: 10px;
+}
+
+.todo-plan button {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.todo-plan button:hover {
+  color: white;
+  background-color: rgb(43, 144, 226);
+}
+.todo-plan input:focus {
+  outline-color: #a8a0ef;
+}
