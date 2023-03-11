@@ -44,6 +44,12 @@ const Login = (props) => {
           </button>
         </div>
       </form>
+      <div className={classes.note}>
+        <p>
+          <strong>Note: </strong>To add a task for this version, you can click
+          the login button and access the task list.
+        </p>
+      </div>
     </div>
   );
 };
